@@ -60,24 +60,17 @@ pip install pandas numpy scikit-learn xgboost seaborn matplotlib
 
 ```
 Python-PredicaoRH
-├── data/                # Dados brutos (ex.: rh_data.csv)
-├── scripts/             # Notebook de análise (scripts/analysis.ipynb)
-├── results/             # Sugestão: salvar figuras e relatórios aqui
+├── data/                # Dados brutos
+├── scripts/             # Notebook de análise
+├── results/             # Figuras e relatórios aqui
 └── README.md
 ```
 
 ## Status
 
-- ✅ Análise exploratória e modelagem inicial concluídas (notebook).
-- 🛠️ Próximos passos: validação cruzada com tuning de hiperparâmetros, calibração de probabilidades, explicabilidade (SHAP) e pipeline de produção.
+✅ Concluído
 
-## Próximos passos recomendados
-
-- Realizar busca de hiperparâmetros (Grid/Random/Optuna) para Random Forest e XGBoost.
-- Aplicar validação cruzada estratificada para estimativas mais robustas.
-- Calibrar probabilidades (por exemplo `CalibratedClassifierCV`) se o objetivo for usar probabilidade de saída para tomada de decisão.
-- Adotar técnicas de interpretabilidade (SHAP/LIME) para explicar previsões a stakeholders de RH.
-- Construir um pipeline (pré-processamento + modelo) e empacotar como API REST ou app para consultas em lote.
+> Veja as [issues abertas](https://github.com/vitoriapguimaraes/Python-PredicaoRH/issues) para sugestões de melhorias e próximos passos.
 
 ## Mais Sobre Mim
 
